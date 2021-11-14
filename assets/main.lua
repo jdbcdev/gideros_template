@@ -3,6 +3,7 @@ require "easing"
 
 application:setKeepAwake(true)
 application:setOrientation(Application.PORTRAIT)
+application:setBackgroundColor(0xffffff)
 
 local iOS = application:getDeviceInfo() == "iOS"
 local android = application:getDeviceInfo() == "Android"
