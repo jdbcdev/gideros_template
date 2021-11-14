@@ -1,0 +1,1 @@
+# gideros_template
