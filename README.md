@@ -1,1 +1,1 @@
-# gideros_template
+# Gideros Template Project
