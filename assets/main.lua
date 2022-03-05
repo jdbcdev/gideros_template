@@ -31,9 +31,9 @@ local function preloader()
 	GameScene.setup()
 
 	-- List of scenes
-	scenes = {"menu", "game"}
+	local scenes = {"menu", "game"}
 
-	sceneManager = SceneManager.new({
+	local sceneManager = SceneManager.new({
 		["menu"] = MenuScene,
 		["game"] = GameScene
 		})
