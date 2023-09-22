@@ -2,11 +2,11 @@ require "scenemanager"
 require "easing"
 
 application:setKeepAwake(true)
-application:setOrientation(Application.PORTRAIT)
+application:setOrientation(Application.LANDSCAPE_LEFT)
 application:setBackgroundColor(0xffffff)
 
-local iOS = application:getDeviceInfo() == "iOS"
-local android = application:getDeviceInfo() == "Android"
+local _iOS = application:getDeviceInfo() == "iOS"
+local _android = application:getDeviceInfo() == "Android"
 
 -- Loading function
 local function draw_loading()

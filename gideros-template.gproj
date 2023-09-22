@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
- <properties retinaDisplay="0" scaleMode="3" html5_symbols="0" ios_bundle="com.yourdomain.yourapp-ios" architecture="0" win_domain="giderosmobile.com" build_number="1" osx_signingId="" version_code="1" macos_category="5" mouseTouchOrder="0" winrt_org="GiderosMobile" app_icon="" html5_pwa="0" disableSplash="0" osx_category="5" mouseToTouch="1" fps="60" windowWidth="0" autorotation="0" logicalHeight="480" macos_bundle="com.yourdomain.yourapp-macos" backgroundColor="#ffffff" iosDevice="0" win_org="GiderosMobile" osx_org="GiderosMobile" splashScaleMode="0" splash_h_image="" html5_crash="" windowHeight="0" atv_bundle="com.yourdomain.yourapp-atv" osx_bundle="com.yourdomain." encryptAssets="0" exportMode="0" osx_installerId="" mainluaOnly="0" version="1.0" html5_host="" winrt_package="com.yourdomain.yourapp" tv_icon="" orientation="0" app_name="" touchToMouse="1" html5_fbload="100" splash_v_image="" vsync="0" osx_domain="giderosmobile.com" html5_wasm="0" logicalWidth="320" html5_pack="0" encryptCode="0" html5_mem="256" html5_fbinstant="0">
+ <properties logicalWidth="320" tv_icon="" osx_signingId="" winrt_package="com.yourdomain.yourapp" html5_fbinstant="0" splashScaleMode="0" iosDevice="0" logicalHeight="480" ios_bundle="com.yourdomain.yourapp-ios" scaleMode="3" mainluaOnly="0" html5_symbols="0" app_icon="" html5_crash="" html5_mem="256" orientation="0" autorotation="0" html5_fbload="100" app_name="Match3 in a week" html5_host="" qtexp_domain="giderosmobile.com" html5_pwa="0" fps="60" version="1.0" qtexp_platform="0" splash_v_image="" html5_wasm="0" windowWidth="0" splash_h_image="" backgroundColor="#ffffff" qtexp_org="GiderosMobile" exportMode="0" vsync="0" build_number="1" html5_pack="0" winrt_org="GiderosMobile" version_code="1" osx_bundle="com.yourdomain." touchToMouse="1" macos_category="5" macos_bundle="com.yourdomain.yourapp-macos" atv_bundle="com.yourdomain.yourapp-atv" retinaDisplay="0" encryptAssets="0" mouseToTouch="1" architecture="0" disableSplash="0" osx_installerId="" mouseTouchOrder="0" encryptCode="0" osx_category="5" windowHeight="0">
   <imageScales/>
   <plugins>
-   <plugin enabled="1" name="Easing"/>
-   <plugin enabled="1" name="SceneManager"/>
+   <plugin name="Easing" enabled="1"/>
+   <plugin name="SceneManager" enabled="1"/>
   </plugins>
   <exports/>
  </properties>
@@ -12,11 +12,18 @@
   <file source="assets/fonts/firstfun.ttf"/>
   <file name="assets/fonts/firstfun.ttf"/>
  </folder>
- <folder name="images"/>
+ <folder name="images">
+  <file source="assets/images/background2.jpg"/>
+  <file name="assets/images/License free.txt"/>
+  <file source="assets/images/background.jpg"/>
+  <file name="assets/images/background.jpg"/>
+ </folder>
+ <folder name="lib">
+  <file name="assets/lib/gideros_extension.lua"/>
+ </folder>
  <folder name="scenes">
   <file name="assets/scenes/game.lua"/>
   <file name="assets/scenes/menu.lua"/>
  </folder>
- <folder name="sounds"/>
  <file name="assets/main.lua"/>
 </project>
